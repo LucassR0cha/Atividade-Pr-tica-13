@@ -1,0 +1,172 @@
+ 
+
+body {
+	background: #d2d2c1 url('') ;
+	font: 16px Arial, Helvetica, sans-serif;
+}
+
+#principal {
+	width: 900px;
+	text-align: center;
+}
+
+#principal2 {
+
+}
+
+#menu {
+	background: #c5c5b2;
+	padding: 15px;
+	text-align: center;
+}
+
+#conteudo {
+	background: #e8e8d9;
+	padding: 10px;
+}
+
+#rodape {
+	text-align: center;
+}
+
+a {
+	color: #4b566a;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 4px;
+}
+
+.centralizar {
+	text-align: center;
+}
+
+.img-borda {
+	border: 10px solid #c3c3ae;
+}
+
+.conteudo2 {
+	background: blue;
+	border: 1px solid gray;
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	float: left;   
+}
+
+.noticia {
+	background: #e5e5e5;
+	padding: 5px;
+	width: 280px;
+	margin: 5px;
+	float: left;
+}
+
+.clear {
+	clear: both;
+}
+
+.imagem-produtos {
+	background: white;
+}
+
+.formulario {
+	font-family: "Trebuchet MS, Helvetica, sans-serif;";
+}
+
+h1 {
+	color: #2E2E2E;
+	font-size: 1.2em;
+}
+
+p {
+	color: red;
+}
+
+fieldset {
+	margin: 1em 0;
+	padding: 1em;
+	border: 1px solid;
+	background: #f8f8f8;
+}
+
+legend {
+	font-weight: bold;
+}
+
+label {
+	display: block;
+	cursor: pointer;
+}
+
+input{
+	width: 20em;
+}
+
+input.radio, input.checkbox, input.submit {
+	width: auto;
+}
+
+.radio {
+	margin-right: 1em;
+}
+
+textarea {
+	width: 20em;
+	height: 10em;
+
+}
+
+.text{
+	color: red;
+	background: orange;
+}
+
+
+.azul {
+	color: blue;
+}
+
+#principal {
+	background: gray;
+}
+
+#cabecalho {
+
+}
+
+#conteudo-principal {
+
+}
+
+#topo {
+
+}
+
+.coluna {
+
+}
+
+div :first-child{
+	color: red;
+}
+
+div:last-child{
+	color: orange;
+}
+
+div:nth-child(5){
+	background: beige;
+	color: orange;
+}
+
+div:first-of-type{
+	background-color: #F8E0EC;
+}
+
+li:nth-of-type(2n){
+	background-color: blue;
+}
+
+p::before ,P::after{
+	content: " ::: ";
+}
